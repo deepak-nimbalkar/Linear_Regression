@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Boston Price Predication</title>
+</head>
+<body>
+<div>
+    <h1 style="text-align: center">Boston Price Predication</h1>
+
+    <div>
+        <form action="/predict" method="POST">
+            <input type="text" name="CRIM" id="crim" placeholder="CRIM">
+            <input type="text" name="ZN" id="zn" placeholder="ZN"> 
+            <input type="text" name="INDUS" id="indus" placeholder="INDUS">
+            <input type="text" name="CHAS" id="chas" placeholder="CHAS">
+            <input type="text" name="NOX" id="nox" placeholder="NOX">
+            <input type="text" name="RM" id="rm" placeholder="RM"><br><br>
+            <input type="text" name="AGE" id="age" placeholder="AGE">
+            <input type="text" name="DIS" id="dis" placeholder="DIS">
+            <input type="text" name="RAD" id="rad" placeholder="RAD">
+            <input type="text" name="TAX" id="tax" placeholder="TAX">
+            <input type="text" name="PTRATIO" id="ptratio" placeholder="PTRATIO">
+            <input type="text" name="B" id="b" placeholder="B"><br><br>
+            <input type="text" name="LSTAT" id="lstat" placeholder="LSTAT"><br><br>
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</div>
+</body>
+</html>
