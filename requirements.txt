@@ -10,8 +10,6 @@ numpy==1.21.4
 scikit-learn==0.22.1
 scipy==1.7.2
 six
-sklearn==0.0
-threadpoolctl==3.0.0
 Werkzeug
 wincertstore==0.2
 gunicorn==19.9.0
